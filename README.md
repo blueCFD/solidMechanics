@@ -46,12 +46,17 @@ Further modificiations made by Bruno Santos <wyldckat@github>:
    - Using "realpath" as a compatibility measure with compiling on Windows (blueCFD).
    - Created branches for each one of the latest OpenFOAM git versions: OF22x OF21x OF20x
 
+Further modificiations made by Bruno Santos <wyldckat@github> for blueCFD:
+   - Adapted the source code to build on blueCFD 2.1-2 and 2.0-3.
 
-Building on OpenFOAM 2.2.x, 2.1.x and 2.0.x
-===========================================
+
+Building on blueCFD 2.1-2 and 2.0-3
+===================================
 
 Using Git
 ---------
+
+You need to have [MSys+Git](http://msysgit.github.io/) installed, in order to use Git on Windows.
 
   1. Go to your user folder:
 
@@ -63,30 +68,24 @@ Using Git
   2. Clone the repository and go into the cloned repository:
 
      ```
-     git clone https://github.com/wyldckat/solidMechanics.git
+     git clone https://github.com/blueCFD/solidMechanics.git
      cd solidMechanics
      ```
 
   3. Checkout the repository respective to the version of OpenFOAM you are using:
 
-   * OpenFOAM 2.2.x:
+   * blueCFD 2.1-2:
 
      ```
-     git checkout OF22x
+     git checkout blueCFD-2.1-2
      ```
 
-   * OpenFOAM 2.1.x:
+   * blueCFD 2.0-3 (should also work on blueCFD 2.0-2):
 
      ```
-     git checkout OF21x
+     git checkout blueCFD-2.0-3
      ```
 
-   * OpenFOAM 2.0.x:
-
-     ```
-     git checkout OF20x
-     ```
-     
    4. Build all of the libraries and utilities by running:
 
      ```
@@ -106,31 +105,25 @@ Using Zip
      cd $FOAM_RUN/..
      ```
 
-  2. Get the Zip file for the repository respective to the version of OpenFOAM you are using:
+  2. Get the Zip file for the repository respective to the version of blueCFD you are using:
 
-   * OpenFOAM 2.2.x:
-
-     ```
-     wget https://github.com/wyldckat/solidMechanics/archive/OF22x.zip
-     ```
-
-   * OpenFOAM 2.1.x:
+   * blueCFD 2.1-2:
 
      ```
-     wget https://github.com/wyldckat/solidMechanics/archive/OF21x.zip
+     wget https://github.com/blueCFD/solidMechanics/archive/blueCFD-2.1-2.zip
      ```
 
-   * OpenFOAM 2.0.x:
+   * blueCFD 2.0-3:
 
      ```
-     wget https://github.com/wyldckat/solidMechanics/archive/OF20x.zip
+     wget https://github.com/blueCFD/solidMechanics/archive/blueCFD-2.0-3.zip
      ```
 
    3. Unzip the respective file and go into the respective folder, for example:
 
      ```
-     unzip OF22x.zip
-     cd solidMechanics-OF22x
+     unzip blueCFD-2.1-2.zip
+     cd solidMechanics-blueCFD-2.1-2
      ```
      
    4. Build all of the libraries and utilities by running:
