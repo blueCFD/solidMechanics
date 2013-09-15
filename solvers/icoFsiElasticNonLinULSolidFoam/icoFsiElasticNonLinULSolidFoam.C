@@ -55,7 +55,7 @@ Author
 #include "fixedValuePointPatchFields.H"
 
 #include "OFstream.H"
-#include "EulerDdtScheme.H"
+#include "EulerDdtScheme.T.H"
 #include "backwardDdtScheme.H"
 
 #include "pointFields.H"

@@ -32,7 +32,7 @@ Description
 
 #include "contactProblem.H"
 #include "fvMesh.H"
-#include "FieldFields.H"
+#include "FieldFields.T.H"
 #include "solidTractionFvPatchVectorField.H"
 #include "surfaceFields.H"
 #include "pointMesh.H"

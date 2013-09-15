@@ -43,7 +43,7 @@ SourceFiles
 
 #include "fvPatchFields.H"
 #include "fixedGradientFvPatchFields.H"
-#include "Switch.H"
+#include "Switch.T.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

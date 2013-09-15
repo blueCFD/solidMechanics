@@ -58,7 +58,7 @@ SourceFiles
 #include "fvPatchFields.H"
 #include "solidTractionFvPatchVectorField.H"
 #include "interpolationTable.H"
-#include "Switch.H"
+#include "Switch.T.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

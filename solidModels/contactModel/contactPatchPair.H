@@ -46,7 +46,7 @@ Author
 #include "primitivePatchInterpolation.H"
 #include "patchToPatchInterpolation.H"
 //#include "ggiInterpolation.H"
-#include "FieldFields.H"
+#include "FieldFields.T.H"
 #include "pointFields.H"
 #include "fvMesh.H"
 #include "OFstream.H"

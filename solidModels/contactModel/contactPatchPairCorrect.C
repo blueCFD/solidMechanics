@@ -29,7 +29,7 @@ Description
 #include "contactPatchPair.H"
 #include "contactProblem.H"
 #include "solidTractionFvPatchVectorField.H"
-#include "ListListOps.H"
+#include "ListListOps.T.H"
 //#include "ggiInterpolation.H"
 
 void Foam::contactPatchPair::correct()

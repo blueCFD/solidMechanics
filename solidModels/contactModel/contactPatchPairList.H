@@ -34,7 +34,7 @@ Description
 #define contactPatchPairList_H
 
 #include "contactPatchPair.H"
-#include "PtrList.H"
+#include "PtrList.T.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

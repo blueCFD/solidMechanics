@@ -42,7 +42,7 @@ SourceFiles
 #include "volFields.H"
 #include "tmp.H"
 #include "rheologyLaw.H"
-#include "Switch.H"
+#include "Switch.T.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

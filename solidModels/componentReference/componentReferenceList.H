@@ -34,7 +34,7 @@ Description
 #define componentReferenceList_H
 
 #include "componentReference.H"
-#include "PtrList.H"
+#include "PtrList.T.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

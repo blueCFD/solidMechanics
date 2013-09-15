@@ -41,7 +41,7 @@ SourceFiles
 
 #include "fvPatchFields.H"
 #include "directionMixedFvPatchFields.H"
-#include "Switch.H"
+#include "Switch.T.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
