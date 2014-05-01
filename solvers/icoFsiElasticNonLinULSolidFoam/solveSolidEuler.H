@@ -2,7 +2,8 @@
 #       include "readStressedFoamControls.H"
 
         int iCorr = 0;
-        lduMatrix::solverPerformance solverPerf;
+        //lduMatrix::solverPerformance solverPerf;
+        solverPerformance solverPerf;
         scalar initialResidual = 0;
 
         lduMatrix::debug = 0;

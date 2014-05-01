@@ -75,7 +75,8 @@ int main(int argc, char *argv[])
       Info << "lambda = " << average(lambda.internalField()) << endl;
       
       int iCorr = 0;
-      lduMatrix::solverPerformance solverPerf;
+      //lduMatrix::solverPerformance solverPerf;
+      solverPerformance solverPerf;
       scalar initialResidual = 0;
       scalar residual = GREAT;
       
