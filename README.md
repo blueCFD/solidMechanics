@@ -44,19 +44,19 @@ Further modificiations made by Bruno Santos <wyldckat@github>:
    - Moved solvers to their own folder.
    - Simplified Allw* scripts, since this way we can use the multi-core building ability that OpenFOAM has got.
    - Using "realpath" as a compatibility measure with compiling on Windows (blueCFD).
-   - Created branches for each one of the latest OpenFOAM git versions: OF22x OF21x OF20x
+   - Created branches for each one of the latest OpenFOAM git versions: OF23x OF22x OF21x OF20x
+     - Note: Have not tested any of the tutorials with all of these OpenFOAM versions.
 
-Further modificiations made by Bruno Santos <wyldckat@github> for blueCFD:
-   - Adapted the source code to build on blueCFD 2.1-2 and 2.0-3.
+Further modificiations made by Bruno Santos <wyldckat@github> for blueCFD/blueCFD-Core:
+   - Adapted the source code to build on blueCFD 2.3-1, 2.1-2 and 2.0-3.
 
-
-Building on blueCFD 2.1-2 and 2.0-3
-===================================
+Building on blueCFD 2.3-1, 2.1-2 and 2.0-3
+==========================================
 
 Using Git
 ---------
 
-You need to have [MSys+Git](http://msysgit.github.io/) installed, in order to use Git on Windows.
+You need to have [MSys+Git](http://msysgit.github.io/) installed (already installed by default in blueCFD-Core 2.3), in order to use Git on Windows.
 
   1. Go to your user folder:
 
@@ -73,6 +73,12 @@ You need to have [MSys+Git](http://msysgit.github.io/) installed, in order to us
      ```
 
   3. Checkout the repository respective to the version of OpenFOAM you are using:
+
+   * blueCFD-Core 2.3-1:
+
+     ```
+     git checkout blueCFD-Core-2.3-1
+     ```
 
    * blueCFD 2.1-2:
 
@@ -105,7 +111,13 @@ Using Zip
      cd $FOAM_RUN/..
      ```
 
-  2. Get the Zip file for the repository respective to the version of blueCFD you are using:
+  2. Get the Zip file for the repository respective to the version of blueCFD/blueCFD-Core you are using:
+
+   * blueCFD-Core 2.3-1:
+
+     ```
+     wget https://github.com/blueCFD/solidMechanics/archive/blueCFD-Core-2.3-1.zip
+     ```
 
    * blueCFD 2.1-2:
 
@@ -122,10 +134,10 @@ Using Zip
    3. Unzip the respective file and go into the respective folder, for example:
 
      ```
-     unzip blueCFD-2.1-2.zip
-     cd solidMechanics-blueCFD-2.1-2
+     unzip blueCFD-Core-2.3-1.zip
+     cd solidMechanics-blueCFD-Core-2.3-1
      ```
-     
+
    4. Build all of the libraries and utilities by running:
 
      ```
@@ -140,5 +152,5 @@ Using Zip
 License
 =======
 
-The same as OpenFOAM(R), namely GNU GPL v3.
+The same as OpenFOAM(R), namely GNU GPL v3. For more information, see the file LICENSE.
 
