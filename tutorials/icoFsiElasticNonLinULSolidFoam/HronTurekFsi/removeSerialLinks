@@ -1,10 +1,10 @@
-#!/bin/tcsh
+#!/bin/sh
 
 # Check for proper number of command line args.                                                                                                               
-if ($#argv != 2) then
+if [ $# != 2 ]; then
   echo "Usage: makeLinks fluidCase solidCase"
-  goto done
-endif
+  exit 0
+fi
 
 cd $1
 
